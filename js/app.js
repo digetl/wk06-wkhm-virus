@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     form.addEventListener('submit', () => {
     event.preventDefault();
+
+    const newVirusItem = document.createElement('li')
+
     console.log(event.target.virusname.value);
     console.log(event.target.viruslethality.value);
     console.log('event');
@@ -32,12 +35,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const transmisson = document.createElement('p')
     transmisson.textContent = `Virus transmisson: ${event.target.virustransmisson.value}`
 
-    newVirus.appendChild(name)
-    newVirus.appendChild(lethality)
-    newVirus.appendChild(symptoms)
-    newVirus.appendChild(infectivity)
-    newVirus.appendChild(transmisson)
-
+    newVirus.appendChild(name);
+    newVirus.appendChild(lethality);
+    newVirus.appendChild(symptoms);
+    newVirus.appendChild(infectivity);
+    newVirus.appendChild(transmisson);
+    virusList.appendChild(newVirus);
     });
 
 
