@@ -44,4 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 
+  const deleteAll = document.querySelector('#delete-all');
+  deleteAll.addEventListener('click', () => {virusList.textContent = ''})
+
+
 });
