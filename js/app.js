@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const newVirusItem = document.createElement('li')
 
     const newVirus = document.createElement('li')
-    const name = document.createElement('p')
+    const name = document.createElement('h5')
     name.textContent = `Virus name: ${event.target.virusname.value}`
     console.log(event.target.virusname.value);
     
