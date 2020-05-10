@@ -13,7 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const newVirus = document.createElement('li')
     const name = document.createElement('p')
     name.textContent = `Virus name: ${event.target.virusname.value}`
-
+    console.log(event.target.virusname.value);
+    
     const lethality = document.createElement('p')
     lethality.textContent = `Virus lethality: ${event.target.viruslethality.value}`
 
