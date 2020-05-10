@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const transmisson = document.createElement('p')
     transmisson.textContent = `Virus transmisson: ${event.target.virustransmisson.value}`
 
-    newVirus.appendChild(name);
+    newVirus.appendChild(name,lethality);
     newVirus.appendChild(lethality);
     newVirus.appendChild(symptoms);
     newVirus.appendChild(infectivity);
