@@ -10,15 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const newVirusItem = document.createElement('li')
 
-    console.log(event.target.virusname.value);
-    console.log(event.target.viruslethality.value);
-    console.log('event');
-    console.log(event);
-    
-    console.log(event.target.virussymptoms.value);
-    console.log(event.target.virusinfectivity.value);
-    console.log(event.target.virustransmisson.value);
-
     const newVirus = document.createElement('li')
     const name = document.createElement('p')
     name.textContent = `Virus name: ${event.target.virusname.value}`
@@ -43,9 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     virusList.appendChild(newVirus);
     });
 
-
   const deleteAll = document.querySelector('#delete-all');
   deleteAll.addEventListener('click', () => {virusList.textContent = ''})
-
 
 });
