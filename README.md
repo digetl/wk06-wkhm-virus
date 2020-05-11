@@ -1,6 +1,9 @@
 # week6 D5 DOM context
 
-# Screenshot
+# App Screenshot
+![app](ux/app.png)
+
+# Plannig Screenshot
 ![planning](ux/planning.jpg)
 
 # Running instructions:
